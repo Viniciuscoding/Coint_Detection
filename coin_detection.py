@@ -3,12 +3,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Read coin images
-image = cv2.imread('images/Coins4.jpg', cv2.IMREAD_COLOR)
-image1 = cv2.imread('images/Coins1.png', cv2.IMREAD_COLOR)
-image2 = cv2.imread('images/Coins2.png', cv2.IMREAD_COLOR)
-image3 = cv2.imread('images/Coins3.png', cv2.IMREAD_COLOR)
-imageA = cv2.imread('images/CoinsA.png', cv2.IMREAD_COLOR)
-imageB = cv2.imread('images/CoinsB.png', cv2.IMREAD_COLOR)
+image = cv2.imread('Coins4.jpg', cv2.IMREAD_COLOR)
+image1 = cv2.imread('Coins1.png', cv2.IMREAD_COLOR)
+image2 = cv2.imread('Coins2.png', cv2.IMREAD_COLOR)
+image3 = cv2.imread('Coins3.png', cv2.IMREAD_COLOR)
+imageA = cv2.imread('CoinsA.png', cv2.IMREAD_COLOR)
+imageB = cv2.imread('CoinsB.png', cv2.IMREAD_COLOR)
 
 
 def hough_find_circle(image, dp, minDist, param1, param2, minRadius, maxRadius):
